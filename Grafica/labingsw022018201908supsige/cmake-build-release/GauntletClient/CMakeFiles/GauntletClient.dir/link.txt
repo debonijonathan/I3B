@@ -1,0 +1,1 @@
+clang++  -O3 -DNDEBUG   CMakeFiles/GauntletClient.dir/main.cpp.o  -o GauntletClient ../MockingbirdEngine/libMockingbirdEngine.a /usr/lib/libglut.so /usr/lib/libXmu.so /usr/lib/libXi.so /usr/lib/libOpenGL.so /usr/lib/libGLX.so /usr/lib/libGLU.so /usr/lib/libfreeimage.so 

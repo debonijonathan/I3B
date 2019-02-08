@@ -1,0 +1,11 @@
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/MockingbirdEngine/CMakeFiles/rebuild_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/MockingbirdEngine/CMakeFiles/edit_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/MockingbirdEngine/CMakeFiles/MockingbirdEngine.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/GauntletClient/CMakeFiles/rebuild_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/GauntletClient/CMakeFiles/edit_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/GauntletClient/CMakeFiles/GauntletClient.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/rebuild_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/edit_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/UnitTesting.dir

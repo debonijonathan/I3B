@@ -1,0 +1,9 @@
+**/x64/
+**/packages/
+**/.vs/
+**/.vcxproj
+**/bin/
+**/obj/
+**/*.depend
+**/*.layout
+.idea

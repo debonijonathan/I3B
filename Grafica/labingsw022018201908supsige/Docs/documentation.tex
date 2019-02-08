@@ -1,0 +1,138 @@
+\documentclass[a4paper]{article}
+
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{titling}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+\addtolength{\oddsidemargin}{-.875in}
+\addtolength{\evensidemargin}{-.875in}
+\addtolength{\textwidth}{1.75in}
+\addtolength{\topmargin}{-.875in}
+\addtolength{\textheight}{1.75in}
+
+\title{Mockingbird Graphics Engine}
+\author{Cristian Spozio, Jonatan De Boni, Riccardo Biella}
+\date{23 January 2019}
+\setcounter{section}{-1}
+\setcounter{page}{0}
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyfoot[C]{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\pagebreak
+
+\section{Index}
+\begin{description}
+  \item [1.] Source code
+  \begin{description}
+    \item [1.1] Structure \dotfill 2 
+    \begin{description}
+      \item [1.1.1] Mockingbird Engine \dotfill 2
+      \item [1.1.2] Gauntlet Client \dotfill 2
+      \item [1.1.3] Unit Testing \dotfill 2
+    \end{description}
+    \item [1.2] Engine.\{c,h\} \dotfill 
+    \item [1.3] Object.\{c,h\} \dotfill
+    \item [1.4] Node.\{c,h\} \dotfill
+    \item [1.5] Camera.\{c,h\} \dotfill
+    \item [1.6] Mesh.\{c,h\} \dotfill
+    \begin{description}
+      \item [1.6.1] Vertex.\{c,h\} \dotfill
+      \item [1.6.2] Texture.\{c,h\} \dotfill
+      \item [1.6.3] Material.\{c,h\} \dotfill  
+    \end{description}
+    \item [1.7] Light.\{c,h\} \dotfill
+    \item [1.8] List.\{c,h\} \dotfill
+    \item [1.9] OvoReader.\{c,h\} \dotfill
+  \end{description}
+\end{description}
+
+\begin{description}
+  \item [2.] User manual
+  \begin{description}
+    \item [2.1] Compiling on Linux \dotfill 
+    \item [2.2] Compiling on Windows \dotfill
+    \item [2.3] Demo \dotfill
+    \item [2.4] In-App command list \dotfill
+    
+  \end{description}
+\end{description}
+
+\begin{description}
+  \item [3.] Engine logic
+  \begin{description}
+    \item [3.1] Tree structure \dotfill 
+    \item [3.2] Rendering logic \dotfill
+    \item [3.2] Inverse scene render \dotfill
+  \end{description}
+\end{description}
+
+\begin{description}
+  \item [4.] Client App logic
+  \begin{description}
+    \item [4.1] Scene \dotfill 
+    \item [4.2] Camera management \dotfill 
+    \item [4.3] Finger movement \dotfill 
+    \item [4.4] Light movement \dotfill 
+  \end{description}
+\end{description}
+
+\begin{description}
+  \item [5.] Testing
+  \begin{description}
+    \item [5.1] Google Tests \dotfill 
+    \begin{description}
+      \item [5.1.1] Dependencies \dotfill 
+      \item [5.1.2] Usage \dotfill 
+    \end{description}
+  \end{description}
+\end{description}
+
+\begin{description}
+  \item [6.] Dependencies
+  \begin{description}
+    \item [6.1] Linux \dotfill 
+    \item [6.2] Windows \dotfill 
+  \end{description}
+\end{description}
+
+\begin{description}
+  \item [7.] Conclusions
+\end{description}
+
+\begin{description}
+  \item [8.] Bibliography
+\end{description}
+
+\pagebreak
+
+\section{Source code}
+\subsection{Structure}
+The project is divided in 3 main components: Engine (Dynamic library), Client (Executable), Testing Unit.
+\subsubsection{Mockingbird Engine}
+The engine is implemented through a dynamic library,  
+\subsubsection{Gauntlet Client}
+\subsubsection{Unit Testing}
+
+\subsection{OvoReader}
+The OvoReader class takes care of analyzing the content of an OVO file (ie of a scene) and then entering the information into the respective classes.
+\subsubsection{Structure .OVO}
+The structure of an .OVO file contains the information of each single element of the scene, first the information of the materials used will be displayed and then the meshes. The meshes present have a hierarchical tree structure where the information is shown from root to leaf, up to the end of the leaves.
+\subsubsection{Methods}
+The getFinalScene method allows to parse each element by saving the materials in a map so as to have the information as a name (primary key) and the material as a value. Instead, in a vector we will save the information through an Element structure that inside it will save the Nodes and the number of children of the node.//
+Through the tree method we can make the hierarchical structure, using a stack to save the parent nodes temporarily. If this is the first element then we know that it is the root node and then we save it in the stack. Instead if it has children and is not the first element we also save it in the stack but we decrease the previous node and assign it the parent node, if instead the node has no children we decrease the last node of the stack, assign the father and delete all stack items that no longer have children.
+The printTree method allows to print all the parsed elements from the OvoReader with the correct kinships
+
+\end{document}

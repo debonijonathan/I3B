@@ -1,0 +1,4 @@
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/rebuild_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/edit_cache.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/UnitTesting.dir
+/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/CMakeFiles/test.dir

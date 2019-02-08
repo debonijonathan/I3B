@@ -1,0 +1,5 @@
+/opt/JetBrains/apps/CLion/ch-0/182.4505.18/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige
+FreeImage: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug

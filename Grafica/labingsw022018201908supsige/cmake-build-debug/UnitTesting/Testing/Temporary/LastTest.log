@@ -1,0 +1,162 @@
+Start testing: Jan 22 15:53 CET
+----------------------------------------------------------
+1/1 Testing: UnitTesting
+1/1 Test: UnitTesting
+Command: "/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting/UnitTesting" "-v"
+Directory: /home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-debug/UnitTesting
+"UnitTesting" start time: Jan 22 15:53 CET
+Output:
+----------------------------------------------------------
+[==========] Running 56 tests from 9 test cases.
+[----------] Global test environment set-up.
+[----------] 15 tests from CameraTest
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetCameraUp_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetCameraUp_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetRotation_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetRotation_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetPosition_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetPosition_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetDirection_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetDirection_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetFOV_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetFOV_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetNearPlane_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetNearPlane_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetFarPlane_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetFarPlane_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetCameraSpeed_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetCameraSpeed_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetCameraMotionSpeed_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetCameraMotionSpeed_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetSHeight_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetSHeight_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndSetSWidth_Test
+[       OK ] CameraTest.CameraTest_camera_getAndSetSWidth_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getAndInverseMatrix_Test
+[       OK ] CameraTest.CameraTest_camera_getAndInverseMatrix_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getProjectionMatrix_Test
+[       OK ] CameraTest.CameraTest_camera_getProjectionMatrix_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_getOrthographicMatrix_Test
+[       OK ] CameraTest.CameraTest_camera_getOrthographicMatrix_Test (0 ms)
+[ RUN      ] CameraTest.CameraTest_camera_creation_Test
+[       OK ] CameraTest.CameraTest_camera_creation_Test (0 ms)
+[----------] 15 tests from CameraTest (0 ms total)
+
+[----------] 8 tests from ListTest
+[ RUN      ] ListTest.ListTest_object_add_Test
+[       OK ] ListTest.ListTest_object_add_Test (0 ms)
+[ RUN      ] ListTest.ListTest_object_remove_Test
+[       OK ] ListTest.ListTest_object_remove_Test (0 ms)
+[ RUN      ] ListTest.ListTest_light_add_Test
+[       OK ] ListTest.ListTest_light_add_Test (0 ms)
+[ RUN      ] ListTest.ListTest_light_remove_Test
+[       OK ] ListTest.ListTest_light_remove_Test (0 ms)
+[ RUN      ] ListTest.ListTest_node_getNumberOfObjects_Test
+[       OK ] ListTest.ListTest_node_getNumberOfObjects_Test (0 ms)
+[ RUN      ] ListTest.ListTest_node_getNumberOfLights_Test
+[       OK ] ListTest.ListTest_node_getNumberOfLights_Test (0 ms)
+[ RUN      ] ListTest.ListTest_list_removeAll_Test
+[       OK ] ListTest.ListTest_list_removeAll_Test (0 ms)
+[ RUN      ] ListTest.ListTest_list_getAndSetMirrorTrue_Test
+[       OK ] ListTest.ListTest_list_getAndSetMirrorTrue_Test (0 ms)
+[----------] 8 tests from ListTest (0 ms total)
+
+[----------] 8 tests from LightTest
+[ RUN      ] LightTest.LightTest_light_getAndSetDirection_Test
+[       OK ] LightTest.LightTest_light_getAndSetDirection_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetPosition_Test
+[       OK ] LightTest.LightTest_light_getAndSetPosition_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetLightN_Test
+[       OK ] LightTest.LightTest_light_getAndSetLightN_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetShininess_Test
+[       OK ] LightTest.LightTest_light_getAndSetShininess_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetAmbient_Test
+[       OK ] LightTest.LightTest_light_getAndSetAmbient_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetDiffuse_Test
+[       OK ] LightTest.LightTest_light_getAndSetDiffuse_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetSpecular_Test
+[       OK ] LightTest.LightTest_light_getAndSetSpecular_Test (0 ms)
+[ RUN      ] LightTest.LightTest_light_getAndSetCutoff_Test
+[       OK ] LightTest.LightTest_light_getAndSetCutoff_Test (0 ms)
+[----------] 8 tests from LightTest (0 ms total)
+
+[----------] 6 tests from MaterialTest
+[ RUN      ] MaterialTest.MaterialTest_material_getAndSetShininess_Test
+[       OK ] MaterialTest.MaterialTest_material_getAndSetShininess_Test (0 ms)
+[ RUN      ] MaterialTest.MaterialTest_material_getAndSetDiffuse_Test
+[       OK ] MaterialTest.MaterialTest_material_getAndSetDiffuse_Test (0 ms)
+[ RUN      ] MaterialTest.MaterialTest_material_getAndSetAmbient_Test
+[       OK ] MaterialTest.MaterialTest_material_getAndSetAmbient_Test (0 ms)
+[ RUN      ] MaterialTest.MaterialTest_material_getAndSetSpecular_Test
+[       OK ] MaterialTest.MaterialTest_material_getAndSetSpecular_Test (0 ms)
+[ RUN      ] MaterialTest.MaterialTest_material_getAndSetTexture_Test
+[       OK ] MaterialTest.MaterialTest_material_getAndSetTexture_Test (0 ms)
+[ RUN      ] MaterialTest.MaterialTest_material_isTransparentAndSetTransparency_Test
+[       OK ] MaterialTest.MaterialTest_material_isTransparentAndSetTransparency_Test (0 ms)
+[----------] 6 tests from MaterialTest (0 ms total)
+
+[----------] 3 tests from MeshTest
+[ RUN      ] MeshTest.MeshTest_mesh_getAndSetMaterial_Test
+[       OK ] MeshTest.MeshTest_mesh_getAndSetMaterial_Test (0 ms)
+[ RUN      ] MeshTest.MeshTest_mesh_addVertex_Test
+[       OK ] MeshTest.MeshTest_mesh_addVertex_Test (0 ms)
+[ RUN      ] MeshTest.MeshTest_mesh_getNumberOfVertices_Test
+[       OK ] MeshTest.MeshTest_mesh_getNumberOfVertices_Test (0 ms)
+[----------] 3 tests from MeshTest (0 ms total)
+
+[----------] 7 tests from NodeTest
+[ RUN      ] NodeTest.NodeTest_node_creation_Test
+[       OK ] NodeTest.NodeTest_node_creation_Test (0 ms)
+[ RUN      ] NodeTest.NodeTest_node_getAndSetMatrix_Test
+[       OK ] NodeTest.NodeTest_node_getAndSetMatrix_Test (0 ms)
+[ RUN      ] NodeTest.NodeTest_node_getAndSetParent_Test
+[       OK ] NodeTest.NodeTest_node_getAndSetParent_Test (0 ms)
+[ RUN      ] NodeTest.NodeTest_node_addChild_Test
+[       OK ] NodeTest.NodeTest_node_addChild_Test (0 ms)
+[ RUN      ] NodeTest.NodeTest_node_removeChild_Test
+[       OK ] NodeTest.NodeTest_node_removeChild_Test (0 ms)
+[ RUN      ] NodeTest.NodeTest_node_getNumberOfChildren_Test
+[       OK ] NodeTest.NodeTest_node_getNumberOfChildren_Test (0 ms)
+[ RUN      ] NodeTest.NodeTest_node_removeAllChildren_Test
+[       OK ] NodeTest.NodeTest_node_removeAllChildren_Test (0 ms)
+[----------] 7 tests from NodeTest (0 ms total)
+
+[----------] 4 tests from ObjectTest
+[ RUN      ] ObjectTest.ObjectTest_object_AutoincrementId_Test
+[       OK ] ObjectTest.ObjectTest_object_AutoincrementId_Test (0 ms)
+[ RUN      ] ObjectTest.ObjectTest_object_creation_Test
+[       OK ] ObjectTest.ObjectTest_object_creation_Test (0 ms)
+[ RUN      ] ObjectTest.ObjectTest_object_getAndSetName_Test
+[       OK ] ObjectTest.ObjectTest_object_getAndSetName_Test (0 ms)
+[ RUN      ] ObjectTest.ObjectTest_object_getAndSetType_Test
+[       OK ] ObjectTest.ObjectTest_object_getAndSetType_Test (0 ms)
+[----------] 4 tests from ObjectTest (0 ms total)
+
+[----------] 1 test from TextureTest
+[ RUN      ] TextureTest.TextureTest_texture_loadTextureFromFile_Test
+[       OK ] TextureTest.TextureTest_texture_loadTextureFromFile_Test (52 ms)
+[----------] 1 test from TextureTest (52 ms total)
+
+[----------] 4 tests from VertexTest
+[ RUN      ] VertexTest.VertexTest_vertex_creation_Test
+[       OK ] VertexTest.VertexTest_vertex_creation_Test (0 ms)
+[ RUN      ] VertexTest.VertexTest_vertex_getAndSetPosition_Test
+[       OK ] VertexTest.VertexTest_vertex_getAndSetPosition_Test (0 ms)
+[ RUN      ] VertexTest.VertexTest_vertex_getAndSetNormal_Test
+[       OK ] VertexTest.VertexTest_vertex_getAndSetNormal_Test (0 ms)
+[ RUN      ] VertexTest.VertexTest_vertex_getAndSetTextureCoords_Test
+[       OK ] VertexTest.VertexTest_vertex_getAndSetTextureCoords_Test (0 ms)
+[----------] 4 tests from VertexTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 56 tests from 9 test cases ran. (52 ms total)
+[  PASSED  ] 56 tests.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTesting" end time: Jan 22 15:53 CET
+"UnitTesting" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 22 15:53 CET

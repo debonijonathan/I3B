@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tuna_ge"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\GauntletClient\;CMake Files\UnitTesting\;CMake Files\MockingbirdEngine\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\glm\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MockingbirdEngine">
+				<Option output="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/libMockingbirdEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/MockingbirdEngine"/>
+					<Add directory="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 MockingbirdEngine"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MockingbirdEngine/fast">
+				<Option output="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/libMockingbirdEngine.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/MockingbirdEngine"/>
+					<Add directory="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 MockingbirdEngine/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/cmake-build-release/MockingbirdEngine/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Camera.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Camera.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Engine.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Engine.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Light.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Light.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/List.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/List.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Material.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Material.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Mesh.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Mesh.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Node.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Node.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Object.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Object.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/OvoReader.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/OvoReader.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Texture.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Texture.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Vertex.cpp">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/Vertex.h">
+			<Option target="MockingbirdEngine"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/GauntletClient/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\GauntletClient\"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/UnitTesting/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\UnitTesting\"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/MockingbirdEngine/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MockingbirdEngine\"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/../../../../../../../usr/lib64/cmake/glm/glmConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/../../../../../../../usr/lib64/cmake/glm/glmConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\glm\"/>
+		</Unit>
+		<Unit filename="/home/brazorf/Documents/SUPSI/3rd/CG/labingsw022018201908supsige/../../../../../../../usr/lib64/cmake/glm/glmTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib64\cmake\glm\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
